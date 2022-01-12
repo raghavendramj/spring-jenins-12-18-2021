@@ -23,5 +23,6 @@ public class DepartmentController {
     @GetMapping("/depatments/{id}")
     Department getDepartmentById(@PathVariable("id") Long id){
         return new Department(126, "ECE", "Mumbai", "EC-02");
+    }
    
 }
